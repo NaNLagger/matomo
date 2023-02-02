@@ -34,7 +34,7 @@ jobs:
           git config --global user.email stepan.lyashenko@gmail.com
           git config --global user.name nanlagger
           git status
-          git remote add origin https://${{secrets.commit_secret}}@github.com/NaNLagger/nanlagger.github.io.git/matomo
+          git remote add origin https://${{secrets.commit_secret}}@github.com/NaNLagger/nanlagger.github.io.git
           git checkout -b master
           git add --all
           git commit -m "update"
